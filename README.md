@@ -24,7 +24,7 @@ Before you begin, ensure that you have the following prerequisites installed:
 
 - It is important that you replace credentials with your own AWS credentials, Otherwise, Terraform will not be able to recognize your AWS account and this project will not work.
 - Python directory contains a zip file which include python file for performing conversions and all the required packages/modules needed to complete the conversion.  
-- If you don't want to download  my zip folder, I'll provide zip contents in python folder seperately, From there you can make your own zip folder.(( ZIP is important in order for this project to work. ))
+- If you don't want to download  my zip folder, You can make your own zip folder, It should include python file plus all dependencies necessary to perform conversion.(( ZIP is important in order for this project to work. ))
 - It is important to upload zip file to lambda function, so that lambda function will be able to perform conversion. ((Which is automated in python code, But if you make your own zip then make sure to include all necessary files. ))
 - Once you run terraform commmands mentioned below, It should automatically provision an s3 bucket, lambda function, s3 event notification, their IAM policies/roles accordingly to interact with each other.
 
