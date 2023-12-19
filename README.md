@@ -35,7 +35,7 @@ Before you begin, ensure that you have the following prerequisites installed:
 
 #### Requirements:
 - Python installed on your local machine
-- AWS CLI configured with the necessary credentials
+- CLI configured with the necessary credentials
 - DOCX file that you want to convert
 
 #### Steps:
