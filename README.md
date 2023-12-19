@@ -31,7 +31,6 @@ Before you begin, ensure that you have the following prerequisites installed:
 
   ## Usage
 
-### 1. Run the Conversion Script Locally:
 
 #### Requirements:
 - Python installed on your local machine
